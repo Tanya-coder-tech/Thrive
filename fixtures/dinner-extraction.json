@@ -1,0 +1,32 @@
+{
+  "analyzeResult": {
+    "modelId": "prebuilt-receipt",
+    "documents": [
+      {
+        "fields": {
+          "MerchantName": {"valueString": "The Campus Kitchen", "content": "THE CAMPUS KITCHEN", "confidence": 0.99},
+          "TransactionDate": {"valueDate": "2026-11-17", "content": "17/11/2026", "confidence": 0.99},
+          "Items": {"valueArray": [
+            {"valueObject": {
+              "Description": {"valueString": "Margherita pizza", "confidence": 0.97},
+              "Quantity": {"valueNumber": 2, "confidence": 0.95},
+              "Price": {"valueCurrency": {"amount": 200, "currencyCode": "INR"}, "confidence": 0.96},
+              "TotalPrice": {"valueCurrency": {"amount": 400, "currencyCode": "INR"}, "confidence": 0.99}
+            }},
+            {"valueObject": {
+              "Description": {"valueString": "Punjabi thali", "confidence": 0.98},
+              "TotalPrice": {"valueCurrency": {"amount": 250, "currencyCode": "INR"}, "confidence": 0.99}
+            }},
+            {"valueObject": {
+              "Description": {"valueString": "Drinks", "confidence": 0.98},
+              "TotalPrice": {"valueCurrency": {"amount": 150, "currencyCode": "INR"}, "confidence": 0.99}
+            }}
+          ]},
+          "Subtotal": {"valueCurrency": {"amount": 800, "currencyCode": "INR"}, "confidence": 0.99},
+          "TotalTax": {"valueCurrency": {"amount": 40, "currencyCode": "INR"}, "confidence": 0.98},
+          "Total": {"valueCurrency": {"amount": 840, "currencyCode": "INR"}, "confidence": 0.99}
+        }
+      }
+    ]
+  }
+}

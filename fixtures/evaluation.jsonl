@@ -1,0 +1,1 @@
+{"dataset":"Fictional Thrive dinner fixture","response":"dinner-extraction.json","expected":{"merchant":"The Campus Kitchen","purchase_date":"2026-11-17","total_paise":84000,"items":[{"description":"Margherita pizza","amount_paise":40000},{"description":"Punjabi thali","amount_paise":25000},{"description":"Drinks","amount_paise":15000}]}}
